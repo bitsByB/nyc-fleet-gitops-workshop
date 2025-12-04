@@ -11,6 +11,9 @@ agent_options:
   path: ./lib/agent-options.yml
 controls: # This cannot be set here and in no-team.yml
 org_settings:
+  webhook_settings: true
+  enable_activity_webhook: true
+  destination_url: https://bangbuild.app.n8n.cloud/webhook/25f2613e-0c5b-4784-be3a-0c744c360e88
   server_settings:
     server_url: $FLEET_URL
   org_info:
